@@ -1,9 +1,9 @@
 import axios from 'axios'
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import { Form,Button,Image } from 'react-bootstrap'
-import { Link,useNavigate   } from 'react-router-dom'
+import { useNavigate   } from 'react-router-dom'
 
-import universityPhoto from '../images/universityPhoto.jpg'
+// import universityPhoto from '../images/universityPhoto.jpg'
 import '../styles/loginStyle.css'
 
 export default function Login (){
