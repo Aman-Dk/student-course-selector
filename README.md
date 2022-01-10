@@ -3,9 +3,14 @@
    I have made this application using MERN Stack and deployed the app on heroku. 
 ## Features : 
   Authentication, so that only registered admin has access to the app
+  
   Upon Login, displays the list of students, optionally with pagination
+  
   Upon click on the list item, selected courses for that specific student is displayed
+  
   Also, there is option to choose some new courses for that selected student
+  
+  LogOut to end the session of user
   
 ### Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
 ### Application Link : https://student-course-selector.herokuapp.com/
