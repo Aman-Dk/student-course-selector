@@ -2,9 +2,13 @@
    This is a ReactJs application, made for university admin to choose courses for the students.
 ## Features : 
   Authentication, so that only registered admin has access to the app
+  
   Return the list of students, optionally with pagination
+  
   Display the list of students
+  
   Upon click on the list item, selected courses for that specific student is displayed
+  
 ## Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
 
 _____________________________________________________________________________________________
