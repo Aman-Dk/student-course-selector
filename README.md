@@ -3,16 +3,13 @@
    I have made this application using MERN Stack and deployed the app on heroku. 
 ## Features : 
   Authentication, so that only registered admin has access to the app
-  
   Upon Login, displays the list of students, optionally with pagination
-  
   Upon click on the list item, selected courses for that specific student is displayed
-  
   Also, there is option to choose some new courses for that selected student
-
-## Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
-## Application Link : https://student-course-selector.herokuapp.com/
-## Source file: 
+  
+### Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
+### Application Link : https://student-course-selector.herokuapp.com/
+### Source file: 
 ### Frontend: https://github.com/Aman-Dk/student-course-selector
 ### Backend: https://github.com/Aman-Dk/student-course-selector-backend
 
