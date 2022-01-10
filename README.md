@@ -3,12 +3,12 @@
 ## Features : 
   Authentication, so that only registered admin has access to the app
   
-  Return the list of students, optionally with pagination
-  
-  Display the list of students
+  Upon Login, displays the list of students, optionally with pagination
   
   Upon click on the list item, selected courses for that specific student is displayed
   
+  Also, there is option to choose some new courses for that selected student
+
 ## Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
 
 _____________________________________________________________________________________________
