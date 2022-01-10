@@ -1,5 +1,6 @@
 # About the Project(Student Course Selector)
    This is a ReactJs application, made for university admin to choose courses for the students.
+   I have made this application using MERN Stack and deployed the app on heroku. 
 ## Features : 
   Authentication, so that only registered admin has access to the app
   
@@ -10,7 +11,6 @@
   Also, there is option to choose some new courses for that selected student
 
 ## Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
-   I have made this application using MERN Stack and deployed the app on heroku. 
 ## Application Link : https://student-course-selector.herokuapp.com/
 ## Source file: 
 ### Frontend: https://github.com/Aman-Dk/student-course-selector
