@@ -31,7 +31,7 @@ export default function Login (){
     const submitHandler = async(e) =>{
         e.preventDefault();
 
-        await axios.post('/login',{username:username,
+        await axios.post('/api/login',{username:username,
                                     password:password})
                                     .then((message)=>{
                                         navigate('/home')
