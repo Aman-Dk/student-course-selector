@@ -35,7 +35,7 @@ export default function Login (){
                                     password:password})
                                     .then((message)=>{
                                         navigate('/home')
-                                        // console.log(message)
+                                        console.log(message)
                                     })
                                     .catch(err=>{
                                         console.log(err);
