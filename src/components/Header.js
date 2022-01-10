@@ -10,7 +10,7 @@ export default function Header(props) {
     //this function will logout admin from the app and send them to login page 
     function logoutHandler(){
         // sending logout request to backend
-        axios.get('/admin/logout').then(()=>{
+        axios.get('/api/admin/logout').then(()=>{
             navigate('/')
         })
         .catch(err=>{

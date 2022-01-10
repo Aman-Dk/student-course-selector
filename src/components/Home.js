@@ -75,7 +75,7 @@ export default class Home extends Component{
 
     // fetching list of students from database using axios
     async componentDidMount() {
-        const fetchedStudents = await axios.get('/students')
+        const fetchedStudents = await axios.get('/api/students')
         // console.log(fetchedStudents.data)
         this.setState({ studentList: fetchedStudents.data })
     }
@@ -92,7 +92,7 @@ export default class Home extends Component{
         if(prevState.selectedCourse!==this.state.selectedCourse){
         // console.log(prevState.selectedCourse)
         // console.log(this.state.selectedCourse);
-        const fetchedStudents = await axios.get('/students')
+        const fetchedStudents = await axios.get('/api/students')
         this.setState({ studentList: fetchedStudents.data })
 
         }
@@ -120,7 +120,7 @@ export default class Home extends Component{
         // console.log(newCourse,this.state.student_Id)
         // await axios.post('/updateCourse',{id:this.state.student_Id,course:newCourse})
         // sending request to update the student course with newly selectedCourse
-        await axios.patch('/updateCourse',{id:this.state.student_Id,course:newCourse})
+        await axios.patch('/api/updateCourse',{id:this.state.student_Id,course:newCourse})
             .then(()=>{
                 this.setState({selectedCourse:newCourse})
 
