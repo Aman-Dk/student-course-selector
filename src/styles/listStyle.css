@@ -1,0 +1,29 @@
+.list-group{
+    height: 70vh;
+    overflow: auto;
+}
+.list-group a{
+    margin: 0;
+}
+/* to disable the default scroll bar while scrolling student list */
+.keep-scrolling::-webkit-scrollbar {
+    display: none;
+}
+
+.image{
+    background: url(https://img.icons8.com/material-outlined/60/4a90e2/circled-left--v1.png) no-repeat;
+    width: 64px;
+    height: 64px;    
+    border: none;
+}
+/* a{
+    width: 64px;
+    height: 64px;   
+} */
+
+.image:hover{
+    background: url(https://img.icons8.com/material/60/4a90e2/circled-left--v2.png) no-repeat;
+}
+.selectedCourse{
+    color: #1E3A8A;
+}
