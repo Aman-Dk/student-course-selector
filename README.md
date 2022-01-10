@@ -11,8 +11,6 @@
 
 ## Tech Stack : MERN (MongoDb, Express, ReactJs, NodeJs)
 
-_____________________________________________________________________________________________
-
 
 # Getting Started with Create React App
 
